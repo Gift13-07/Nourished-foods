@@ -1,9 +1,27 @@
-#see{
-    color: orange;
-    margin-left: 1150px;
-    display: flex;
+html {
+    scroll-behavior: smooth;
 }
-h4{
-    margin-left: 1150px;
-    flex-direction: end;
+body{
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+}
+#menu{
+    text-decoration: none;
+}
+#view_more{
+    margin-left: 1200px;
+    text-decoration: none;
+}
+.head{
+    font-size: 16px;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h3 h4{
+    text-decoration: none;
 }
