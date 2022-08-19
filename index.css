@@ -6,10 +6,10 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: burlywood;
 }
-#menu{
+.menu{
     text-decoration: none;
 }
-#view_more{
+.view_more{
     margin-left: 1200px;
     text-decoration: none;
 }
