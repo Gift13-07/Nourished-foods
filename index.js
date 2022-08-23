@@ -5,7 +5,7 @@ view_more.addEventListener("click", () => {
     console.log("jjj")
     if(open === false) {
         open = true
-        menu.style.right ="50px";
+        menu.style.right ="15px";
     } else {
         open = false
         menu.style.right = "-100%"
