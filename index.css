@@ -57,15 +57,17 @@ body{
   }
 
   #menu{
-    position: fixed;
+    position:absolute;
     top:10px;
-    width: 300px;
-    height: 340px;
-    margin-top: 90px;
+    width: 270px;
+    height: 470px;
+    margin-top: 70px;
     right: -100%;
-    background-color: darkorchid;
+    background-color: whitesmoke;
     transition: all 0.4s;
-    margin-right: 0px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
   }
   
 #menu>a{
@@ -74,24 +76,66 @@ body{
 .head{
     font-size: 16px;
 }
-/* .logo{
-    width: 200px;
-    height: 150px;
-    margin-top: 20px;
-    margin-left: 20px;
-} */
-.right{
-    /* margin-left: 1150px; 
-    margin-top: 50px; */
-    color: darkmagenta;
-}
 #top{
-    color: red;
-    position: fixed;
-    z-index: 4;
-    right: 10px;
+    margin-left: 1150px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+#home{
+    margin-top: 350px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    color: #19dcea;
+}
+#about{
+    height: 100vh;
+    color: #b22cff;
+}
+#services{
+    height: 100vh;
+    color: #ea2222;
+}
+#contact{
+    height: 100vh;
+    color: #f5be10;
+}
+#diets{
+    height: 100vh;
+    color: #3bd80d;
+}
+#order{
+    height: 100vh;
+    color: aquamarine;
+}
+.imgItem {
+    width: 280px;
+    height: 190px;
+    object-fit: cover;
+    margin: 0 5px;
+}
+.image{
+    width: 280px;
+    height: 190px;
+    object-fit: cover;
+    margin: 0 5px;
+}
+.imgView{
+    width: 280px;
+    height: 190px;
+    object-fit: cover;
+    margin: 0 5px;
 }
 
-#home{
-    height: 100vh;
+.imgView:hover {
+    transform: translateY(-20px);
+    
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #dddddd;
 }
