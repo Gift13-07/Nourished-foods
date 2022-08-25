@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-    cursor: none;
 }
 marquee{
     font-size: 20px;
@@ -85,6 +84,7 @@ body{
     font-size: 16px;
 }
 #top{
+    cursor:pointer;
     margin-left: 1150px;
     margin-right: 100px;
     display: flex;
@@ -130,6 +130,7 @@ body{
   }
 }  
 #home{
+    cursor: pointer;
     font-size: 25px;
     margin-top: 350px;
     justify-content: center;
@@ -139,6 +140,7 @@ body{
     color: black;
 }
 #about{
+    cursor: pointer;
     font-size: 25px;
     margin-top: 350px;
     justify-content: center;
@@ -148,6 +150,7 @@ body{
     color: black;
 }
 #services{
+    cursor: pointer;
     font-size: 25px;
     margin-top: 350px;
     justify-content: center;
@@ -157,15 +160,7 @@ body{
     color: black;
 }
 #contact{
-    font-size: 25px;
-    margin-top: 350px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    color: black;
-}
-#diets{
+    cursor: pointer;
     font-size: 25px;
     margin-top: 350px;
     justify-content: center;
@@ -175,6 +170,7 @@ body{
     color: black;
 }
 #order{
+    cursor: pointer;
     margin-top: 350px;
     justify-content: center;
     display: flex;
