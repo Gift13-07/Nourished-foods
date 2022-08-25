@@ -11,3 +11,13 @@ view_more.addEventListener("click", () => {
         menu.style.right = "-100%"
     }
 })
+// scroll to top functionality
+const scrollUp = document.querySelector("#scroll-up");
+
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
