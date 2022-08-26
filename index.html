@@ -15,7 +15,7 @@
             <h3 id="underline-hover-effect">View More</h3>
         </a>
         <div id="imageWrap">
-            <img class="imgItem" src="./Beans.jpg">
+            <img title="Food name" class="imgItem" src="./Beans.jpg">
             <img class="imgItem" src="./burger.jpg">
             <img class="imgItem" src="./cake.jpg">
             <img class="imgItem" src="./chicken.jpg">
@@ -55,23 +55,33 @@
         </div>
     </nav>
     <div id="home">
-        <!--img class="imge" src="./crisps.jpg">
-        <img class="imge" src="./jollof.jpg">
-        <img class="imge" src="./veggies.jpg"> -->
-        You are highly welcomed to Nourished-Foods Enterprises website.
+        <section>
+            <img class="imge" src="./crisps.jpg">
+            <img class="imge" src="./jollof.jpg">
+            <img class="imge" src="./veggies.jpg">
+        </section>
+        <h4>You are highly welcomed to Nourished-Foods Enterprises website.
         Eat and be Nourished.
-        Thank you.
+        Thank you.</h4>
     </div>
     <div id="about">
+        <section>
+            <img class="put" src="./eating.jpg">
+            <img class="put" src="./nutritious.jpg">
+        </section>
         We deal with all kind of nutritious foods. Chinese cuisines, Local foods, Sea foods, and even snacks.<br>
         We have different branches all over Nigeria to be specific in Southern states.<br>We don't only operate online we also serve people who come to our restaurants situated at some states in Nigeria.
     </div>
     <div id="services">
+        <section>
+            <img class="more" src="./busy.jpg">
+        </section>
         We render services of selling foods to those who had busy or hectic schedules and might not be free to cook food or prepare their meals. <br> We sell delicious foods and sumptuous meal at afforadable prices. If you want to buy you can click on our contact.<br>
         When you order for food it would be delivered at your doorstep within few minutes.
         Thank you. 
     </div>
     <div id="contact">
+
         Feel free to call us at anytime if you need food or more informations <br> Mobile numbers: +2347046555739 or +2348033563754<br>
         Gmails: chinwendugift2008@gmail.com or<br>
         giftchinwendu07@gmail.com
@@ -83,7 +93,7 @@
             alt="scroll-up"/>
         </i>
         <section id="order" class="contact" id="contact">
-            <h2>Order Now</h2>
+            <h2 class="orderr"> Order Now</h2>
             <div class="contact-form-container">
               <div class="contact-form">
                 <form action="https://formspree.io/f/xyylngw" method="POST">
@@ -109,8 +119,24 @@
                       required
                     />
                   </div>
+                  <div>
+                    <label>Select your order</label>
+                    <select class="input-field">
+                        <option selected disabled>Select order</option>
+                        <option>Rice</option>
+                        <option>Beans</option>
+                        <option>African salad</option>
+                        <option>Ice cream</option>
+                        <option>Pizza</option>
+                        <option>Spaghetti</option>
+                        <option>Nkwobi</option>
+                        <option>Drinks</option>
+                        <option>Chicken</option>
+                        <option>Soup</option>
+                    </select>
+                  </div>
                   <div class="form-control">
-                    <h4>Type in your address at the message below</h4>
+                    <h4>Type in your address and your order at the message below</h4>
                     <label for="message">Message</label>
                     <textarea
                       id="message"
